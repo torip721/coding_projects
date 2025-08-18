@@ -6,27 +6,71 @@
         
 </head>
 
+  
 <body>
+
+ <div class="image-container">
+    <img src="stranger things head.jpeg" alt="Stranger Things">
+</div>
+
     <style>
-    body {
+body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
         background-color: #131412;
         color: #ffffff;
     }
 
-    blended-element{
-        background-image: url('stranger things head.jpeg');
-        background-color: #131412;
-        background-blend-mode: multiply;
-        background-size: cover;
-    }
+.image-wrap{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
 
-    fade-element{
-background-image: url('stranger things head.jpeg');
-background-color: #131412;
-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, transparent);
-    }
+.image-wrap img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    filter: blur(0px);
+    transition: filter 0.5s ease;
+}
+
+.image-wrap::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to left, #131412 35%, transparent 65%);
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    filter: blur(0px);
+    transition: filter 0.5s ease;
+}
+
+.image-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5), #131412;
+    transition: background 0.5s ease;
+}
 
 h1{
     color: #db1717;
