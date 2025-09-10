@@ -34,3 +34,20 @@ header {
     font-family: 'Arial Black', sans-serif;
     margin-bottom: 20px;
 }
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
