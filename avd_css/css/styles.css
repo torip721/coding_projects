@@ -56,4 +56,6 @@ nav li a {
     display: block;
     background-color: #F2CB9B;
     color: #83A603;
+    height: 25px;
+    width: 150px;
 }
