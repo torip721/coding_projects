@@ -69,3 +69,11 @@ nav li a:hover {
     background-color: #83A603;
     color: #F2CB9B;
 }   
+
+main h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #2f1a00;
+    font-family: 'Arial Black', sans-serif;
+    margin-bottom: 20px;
+}
