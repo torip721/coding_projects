@@ -9,6 +9,14 @@ img {
     height: auto;
 }
 
+a {
+    color: #8C5D23;
+}
+
+a:hover {
+    color: #F2CB9B;
+    text-decoration: none;
+}
 
 #container{
     background-color:#F2CB9B ;
