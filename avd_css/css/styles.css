@@ -1,4 +1,11 @@
 body{
    background-color: #83A603;
-   
+}
+
+container{
+    background-color:#F2CB9B ;
+    width: 65%;
+margin: 20px auto;
+border: 40px solid #F2CB9B ;
+padding: 20px;
 }
