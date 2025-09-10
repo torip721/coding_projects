@@ -77,3 +77,20 @@ main h2 {
     font-family: 'Arial Black', sans-serif;
     margin-bottom: 20px;
 }
+
+.multi_col {
+    display: flex;
+    column-count: 2;
+    column-gap: 20px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #2f1a00;
+    text-align: justify;
+}   
+
+section, aside {
+    border-radius: 20px;
+    border: 2px solid #2f1a00;
+    padding: 20px;
+    margin-bottom: 20px;
+}
