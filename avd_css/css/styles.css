@@ -26,3 +26,11 @@ border: 40px solid #F2CB9B ;
 padding: 20px;
 border-radius: 20px ;
 }
+
+header {
+    text-align: center;
+    font-size: 60px;
+    color: #2f1a00;
+    font-family: 'Lucida Handwriting', cursive;
+    margin-bottom: 20px;
+}
