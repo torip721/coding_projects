@@ -94,3 +94,15 @@ section, aside {
     padding: 20px;
     margin-bottom: 20px;
 }
+
+section {
+    width: 75%;
+    background-color: #F2CB9B;
+}
+
+aside {
+    width: 25%;
+    background-color: #F2CB9B;
+    float: right;
+    margin-left: 20px;
+}
