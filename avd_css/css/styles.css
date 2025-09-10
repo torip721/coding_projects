@@ -58,4 +58,14 @@ nav li a {
     color: #83A603;
     height: 25px;
     width: 150px;
+    line-height: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #2f1a00;
 }
+
+nav li a:hover {
+    background-color: #83A603;
+    color: #F2CB9B;
+}   
