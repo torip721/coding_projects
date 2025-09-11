@@ -20,7 +20,7 @@ a:hover {
 
 #container {
     background-color: #F2CB9B;
-    width: 50%;
+    width: 70%;
     margin: 20px auto;
     border: 40px solid #F2CB9B;
     padding: 20px;
@@ -78,7 +78,7 @@ main h2 {
     margin-bottom: 20px;
 }
 
-/* FLEXBOX FIX */
+
 .multi_col {
     display: flex;
     gap: 20px;
@@ -96,14 +96,16 @@ section, aside {
     background-color: #F2CB9B;
 }
 
-/* two-column proportions */
 section {
-    flex: 3; /* 75% */
+    flex: 3; 
+    width: 75%;
 }
 
 aside {
-    flex: 1; /* 25% */
+    flex: 1; 
+    width: 25%;
 }
+
 
 section img {
     width: 100%;
