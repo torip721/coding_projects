@@ -5,3 +5,5 @@
 <ul><li><a href="html5_css/index.html" target="_blank">HTML5 and css</a></li></ul>
 
 <ul><li><a href="avd_css/index.html" target="_blank">Advanced css</a></li></ul>
+
+<ul><li><a href="responsive/index.html" target="_blank">Responsive</a></li></ul>
