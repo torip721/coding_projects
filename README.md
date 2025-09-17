@@ -7,3 +7,5 @@
 <ul><li><a href="avd_css/index.html" target="_blank">Advanced css</a></li></ul>
 
 <ul><li><a href="responsive/index.html" target="_blank">Responsive</a></li></ul>
+
+<ul><li><a href="final_project/index.html" target="_blank">Final Project</a></li></ul>
