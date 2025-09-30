@@ -1,21 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>About the Show — Gilmore Girls</title>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Gilmore Girls</title>
+<link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-  <header class="site-header small">
-    <div class="brand">
-      <img src="images/gg3.jpg" alt="Luke's Diner" class="logo">
-      <h1>Stars Hollow</h1>
+  <header>
+    <h1>About Gilmore Girls</h1>
+    <div>
+ <img src="images/lukescup.jpeg" alt="Luke's cup" class="logo">
     </div>
-
-    <nav class="main-nav">
+   
+    <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="gallery.html">Gallery</a></li>
@@ -26,35 +25,38 @@
     </nav>
   </header>
 
-  <main class="container">
-    <h2>About This Project</h2>
+  <main class="two-column">
+    <section>
+      <h2>The Story</h2>
+      <p>
+        <em>Gilmore Girls</em> is an American dramedy television series created by Amy Sherman-Palladino. 
+        It originally aired from 2000 to 2007 and quickly became a cultural phenomenon. 
+        The show follows the lives of Lorelai Gilmore, a witty single mother, and her intelligent, book-loving daughter Rory. 
+        Together they navigate life, love, and family in the charming small town of Stars Hollow, Connecticut.
+      </p>
 
-    <div class="two-col">
-      <div>
-        <h3>Purpose</h3>
-        <p>This mini-site was created to demonstrate HTML &amp; CSS skills required by the final project: multiple pages, layouts, lists, images, media, fonts, and responsive design. The content is fan-friendly, family-friendly, and suitable for class.</p>
+      <h2>Why It’s Beloved</h2>
+      <p>
+        Fans adore the show for its fast-paced dialogue, heartfelt relationships, and quirky cast of characters. 
+        From coffee-fueled mornings at Luke’s Diner to annual town festivals, 
+        <em>Gilmore Girls</em> balances humor and emotion while exploring themes of independence, ambition, and family bonds. 
+      </p>
+    </section>
 
-        <h3>Structure</h3>
-        <ul>
-          <li>index.html — home</li>
-          <li>gallery.html — at least 6 images</li>
-          <li>facts.html — facts &amp; lists</li>
-          <li>about.html — project &amp; author notes</li>
-          <li>more.html — embedded media (audio/video)</li>
-        </ul>
-      </div>
-
-      <aside class="card">
-        <h4>Author</h4>
-        <p>Built as a class assignment. Replace images and media with your own or copied sources (permitted by assignment instructions).</p>
-      </aside>
-    </div>
+    <aside>
+      <h3>Quick Facts</h3>
+      <ul>
+        <li>First aired: October 5, 2000</li>
+        <li>Seasons: 7 (+ Netflix revival)</li>
+        <li>Setting: Stars Hollow, Connecticut</li>
+        <li>Main cast: Lauren Graham & Alexis Bledel</li>
+      </ul>
+      <img src="images/stars-hollow.jpg" alt="Stars Hollow town" style="width:100%; margin-top:1em; border-radius:10px;">
+    </aside>
   </main>
 
-  <footer class="site-footer">
-    <p>&copy; <span id="year4"></span> Class project</p>
+  <footer>
+    <p>&copy; 2025 Gilmore Girls Fan Site | Designed for class project</p>
   </footer>
-  <script>document.getElementById('year4').textContent = new Date().getFullYear();</script>
 </body>
 </html>
-
