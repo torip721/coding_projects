@@ -1,46 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 and Intro to CSS</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Stars Hollow — A Gilmore Girls Fan Site</title>
+
+  
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
-
 <body>
-    <div id="container">
-        <header>
-            <h1><img src="images/cats.jpeg" alt="Cats"></h1>
-        </header>
-    
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="facts.html">FACTS</a></li>
-                <li><a href="gallery.html">GALLERY</a></li>
-            </ul>
-        </nav>
-        <main class="multi_col">
-            <section>
-                 <h2>Welcome to the Cat World</h2>
-            <hr>
-            <p>Discover the amazing world of cats, their behaviors, and how to take care of them.</p>
-            <img src="images/cathead.jpeg" alt="main cat">
-            <hr>
-            <h3>Graceful Companion</h3>
-            <p>Cats are one of the most popular pets in the world, loved for their independence and charm. They come in many different breeds, sizes, and colors, each with its own unique personality. Unlike dogs, cats are often more self-sufficient and can entertain themselves for hours. They are skilled hunters, known for their sharp claws, quick reflexes, and ability to stalk prey silently. Many cats enjoy affection, purring when they are happy or comfortable around their owners. They also communicate through body language, like flicking their tails or twitching their ears. Cats have been companions to humans for thousands of years, even being worshipped in ancient cultures. Overall, cats are graceful, mysterious, and lovable animals that bring joy to millions of people.</p>
-            <h3>The Playful Nature of Cats</h3>
-            <p>Cats are naturally curious creatures who love to explore their surroundings. Play is an important part of their daily lives, helping them stay active and mentally sharp. Kittens especially are full of energy, often chasing toys, climbing, and pouncing on anything that moves. Even adult cats enjoy playful activities, whether it’s swatting at strings or hiding in boxes. Their playful behavior is not just for fun—it also mimics hunting skills they would need in the wild. Owners can strengthen their bond with their cats by engaging in games like fetch or using feather wands. This playtime provides both exercise and stress relief for cats. In the end, their playful spirit keeps them lively, entertaining, and endlessly amusing to watch.</p>
-            </section>
-           
-        </main>
-
-        <footer>
-            &copy; 2023 Cat World. All rights reserved.
-        </footer>
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/gg1.jpg" alt="Stars Hollow" class="logo">
+      <h1>Stars Hollow</h1>
+      <p class="tag">small town. big hearts. &amp; fast coffee.</p>
     </div>
-</body>
 
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About the Show</a></li>
+        <li><a href="more.html">More (Media)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Welcome to Stars Hollow</h2>
+      <p>Explore images, trivia, characters, and media from the beloved drama-comedy <em>Gilmore Girls</em>. This site shows headings, lists, links, responsive layout, borders, padding, and web fonts — everything required for your final project.</p>
+      <a class="btn" href="gallery.html">View the Gallery</a>
+    </section>
+
+    <section class="columns overview">
+      <article class="card">
+        <h3>Characters</h3>
+        <ul>
+          <li>Lorelai Gilmore</li>
+          <li>Rory Gilmore</li>
+          <li>Luke Danes</li>
+          <li>Sookie St. James</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Quick Facts</h3>
+        <p>Air years: 2000–2007 (original run) &amp; revival in 2016. Small town vibes, fast talk, &amp; lots of coffee.</p>
+      </article>
+
+      <article class="card">
+        <h3>Project Notes</h3>
+        <ol>
+          <li>Uses at least 6 images stored in <code>images/</code>.</li>
+          <li>Includes an audio/video file in <code>media/</code>.</li>
+          <li>Responsive 2–3 column layout; Google Fonts used.</li>
+        </ol>
+      </article>
+    </section>
+
+    <section class="feature">
+      <h2>Design elements demonstrated</h2>
+      <p>Headings, lists, margins, padding, borders, background images, &amp; a responsive two-/three-column layout are implemented.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Stars Hollow Fan Site — Not affiliated with the show. &middot; Built for class project.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>

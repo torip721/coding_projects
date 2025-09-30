@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Media — More</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header class="site-header small">
+    <div class="brand">
+      <img src="images/gg4.jpg" alt="Sookie" class="logo">
+      <h1>Stars Hollow</h1>
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="more.html" class="active">More</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Audio &amp; Video</h2>
+    <p>Embed one audio or one video file for your assignment. Place a media file into <code>media/</code>. Examples below assume you add <code>media/intro.mp4</code> (video) or <code>media/song.mp3</code> (audio).</p>
+
+    <section class="media">
+      <h3>Video – optional</h3>
+      <video controls width="100%" preload="metadata">
+        <source src="media/intro.mp4" type="video/mp4">
+        Your browser does not support the video element. Try using an MP4 file named <code>media/intro.mp4</code>.
+      </video>
+
+      <h3>Audio – optional</h3>
+      <audio controls preload="metadata">
+        <source src="media/song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element. Try using an MP3 file named <code>media/song.mp3</code>.
+      </audio>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Media files are optional but at least one audio or video must be included for the project.</p>
+  </footer>
+</body>
+</html>

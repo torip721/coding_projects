@@ -1,42 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery of Cats</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gallery — Stars Hollow</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <div id="container">
-    <header>
-      <h1>CAT GALLERY</h1>
-    </header>
+  <header class="site-header small">
+    <div class="brand">
+      <img src="images/gg1.jpg" alt="Stars Hollow" class="logo">
+      <h1>Stars Hollow</h1>
+    </div>
 
-    <nav>
+    <nav class="main-nav">
       <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="facts.html">FACTS</a></li>
-        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="more.html">More</a></li>
       </ul>
     </nav>
+  </header>
 
-    <main>
-      <h2>Beautiful Cats in Photos</h2>
-      <hr>
-      <div class="gallery-grid">
-        <img src="images/cat1.jpeg" alt="Cat 1">
-        <img src="images/cat2.jpeg" alt="Cat 2">
-        <img src="images/cat3.jpeg" alt="Cat 3">
-        <img src="images/cat4.jpeg" alt="Cat 4">
-        <img src="images/cat5.jpeg" alt="Cat 5">
-        <img src="images/cat6.jpeg" alt="Cat 6">
-      </div>
-    </main>
+  <main class="container">
+    <h2>Gallery</h2>
+    <p>Below are images used for the site. Save these to <code>images/</code>. Each image has a border and caption.</p>
 
-    <footer>
-      &copy; 2023 Cat World. All rights reserved.
-    </footer>
-  </div>
+    <section class="grid gallery-grid">
+      <figure>
+        <img src="images/gg1.jpg" alt="Stars Hollow town square">
+        <figcaption>Town square — iconic meetings.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/gg2.jpg" alt="Lorelai and Rory">
+        <figcaption>Lorelai &amp; Rory — mother-daughter moments.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/gg3.jpg" alt="Luke's Diner">
+        <figcaption>Luke's Diner — coffee central.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/gg4.jpg" alt="Sookie cooking">
+        <figcaption>Sookie in the kitchen.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/gg5.jpg" alt="Stars Hollow festival">
+        <figcaption>Festival day — small-town charm.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/gg6.jpg" alt="Rory studying">
+        <figcaption>Rory studying — the academic thread.</figcaption>
+      </figure>
+    </section>
+
+    <p class="note">Tip: Use images at reasonable sizes (800–1200px wide) to keep pages fast.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year2"></span> Stars Hollow Fan Site</p>
+  </footer>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
 </body>
 </html>
