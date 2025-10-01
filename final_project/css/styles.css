@@ -1,3 +1,7 @@
+body {
+  background-color: pink !important;
+}
+
 
 :root {
   --accent: #6b2d2d;   
