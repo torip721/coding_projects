@@ -272,7 +272,7 @@ body.about-page p {
 
 
 .about-page header {
- display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
@@ -280,7 +280,15 @@ body.about-page p {
   border-bottom: 4px solid var(--accent-light);
   gap: 1rem;
   color: #fff;
-
+}
+.about-page-header.small { padding: .5rem 1rem; }
+.brand { display: flex; align-items: center; gap: .75rem; }
+.brand h1 {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #fff;
 }
 
 .about-page ul {
