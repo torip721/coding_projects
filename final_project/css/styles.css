@@ -197,3 +197,9 @@ body {
   .logo { width: 48px; height: 48px; }
   .brand h1 { font-size: 1.1rem; }
 }
+
+.two-column {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
