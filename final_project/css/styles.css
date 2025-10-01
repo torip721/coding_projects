@@ -272,42 +272,34 @@ body.about-page p {
 
 
 .about-page header {
-  background-color: #4b1e1e; 
-  color: #f5f0e6; 
-  padding: 1.5em 0;
-  text-align: center;
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: var(--accent);
+  border-bottom: 4px solid var(--accent-light);
+  gap: 1rem;
+  color: #fff;
+
 }
 
-.about-page nav ul {
+.about-page ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 1.5em;
-  background-color: #4b1e1e; 
-  padding: 0.8em 0;
-  border-bottom: 3px solid #d9cbb3;
+  margin: 0; padding: 0;
+  display: flex; gap: .5rem;
 }
-
-.about-page nav ul li a {
+.about-page a {
+  display: inline-block;
+  padding: .5rem .7rem;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.05em;
-  color: #f5f0e6;
-  padding: 0.4em 0.8em;
+  color: #fff;
   border-radius: 6px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 500;
 }
-
-.about-page nav ul li a:hover {
-  background-color: #d9cbb3;
-  color: #4b1e1e;
+.about-page a.active, .about-page a:hover {
+  background: var(--accent-light);
+  color: #fff;
 }
-
-.about-page nav ul li a.active {
-  background-color: #b84a4a;
-  color: #fff8f3;
 }
 
 
